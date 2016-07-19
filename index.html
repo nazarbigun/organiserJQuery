@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "bower_components\bootstrap\dist\css\bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main_stylesheet.css">
+</head>
+<body>
+    <!--my input field ADD FUNCTIONALITY-->
+    <textarea class="form-control input-area" rows="3"></textarea>
+
+    <!-- Create button ADD FUNCTIONALITY-->
+    <button type="button" class="btn btn-primary btn-lg button">Create</button>
+
+    <!-- all,new,done buttons ADD FUNCTIONALITY -->
+    <button type="button" class="btn btn-primary listButton">all</button>
+    <button type="button" class="btn btn-success listButton">new</button>
+    <button type="button" class="btn btn-info listButton">done</button>
+
+    <!--my tasks ADD Functionality-->
+    <div class = "tasks">
+        <button type="button" class="btn btn-default btn-lg active doneButton">&#9872</button>
+        <textarea class="form-control input-area task" rows="2"></textarea>
+        <button type="button" class="btn btn-default btn-lg active starredButton">&#9734</button>
+    </div>
+</body>
+</html>

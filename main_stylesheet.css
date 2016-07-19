@@ -1,0 +1,38 @@
+.input-area {
+    width: 80%;
+    display: inline-block;
+    height: 10%;
+    margin-top: 20px;
+}
+.button {
+    width: 20%;
+    position: absolute;
+    height: 9.5%;
+    margin-top: 20px;
+    display: inline-block;
+}
+.listButton {
+    display: inline-block;
+    margin-top: 40px;
+}
+.doneButton {
+    border-radius:5px;
+    height:53px;
+    width: 53px;
+    display: inline-block;
+    margin-top:-50px;
+}
+.task {
+    height: 100px;
+    width: 92%;
+    display: inline-block;
+}
+.starredButton {
+    border-radius:5px;
+    height: 53px;
+    width: 53px;
+    margin-top:-50px;
+}
+.tasks {
+    /*visibility: hidden;*/
+}
