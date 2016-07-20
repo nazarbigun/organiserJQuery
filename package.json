@@ -1,9 +1,5 @@
-{
-  "name": "taskItems",
-  "version": "0.0.1",
-  "tasks": [{"text":"make HTML document", "starring":"true","done":"true"},
-            {"text":"make business logic", "starring":"false","done":"false"},
-            {"text":"make json", "starring":"false","done":"true"},
-            {"text":"relaxing", "starring":"false","done":"false"}
-  ]
+{"items":[{"text":"make HTML document", "starring":"true","done":"true"},
+          {"text":"make business logic", "starring":"false","done":"false"},
+          {"text":"make json", "starring":"false","done":"true"},
+          {"text":"relaxing", "starring":"false","done":"false"}]
 }
